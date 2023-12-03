@@ -1,0 +1,64 @@
+/* App.css */
+.App {
+  background-color: #034B47;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-input {
+  flex: 2;
+  padding: 15px; 
+  border: 2px solid #0E8680;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #0E8680;
+  font-size: 18px;
+  outline: none;
+  width: 70%;
+}
+
+.custom-input:focus {
+  border: 2px solid #4CAF50;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+}
+
+.flex-item {
+  flex: 1;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 10px;
+}
+.icon i {
+  font-size: 24px;
+  color: white;
+}
+.box-content {
+  flex-direction: column;
+  align-items: center; 
+}
+.flex1 {
+  flex: 1;
+  text-align: center; 
+  padding-bottom: 20%;
+}
+.test {
+  margin: 0;
+  font-weight: bold;
+  font-size: 42px;
+  color: white;
+}
